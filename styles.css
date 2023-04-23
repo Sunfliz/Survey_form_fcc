@@ -1,0 +1,93 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f6f7;
+      color: #f5f6f7;
+    font-family: Tahoma;
+      font-size: 16px;
+    
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+    color: #0a0a23;
+  }
+  #description{
+     color: #0a90a7;
+  }
+  form {
+    width: 90vw;
+      max-width: 650px;
+      min-width: 500px;
+      margin: 0 auto;
+    background-color: #0a0a23;
+    border-radius: 20px;
+    height: 185%;
+    
+  }
+  
+  fieldset {
+    border: none;
+      padding: 2rem 0;
+    margin: 1.5rem
+   
+  }
+  
+  fieldset:not(:last-of-type) {
+    border-bottom: 3px 0 #3b3b4f;
+    margin-bottom: -80px;
+  
+  }
+  
+  label {
+    display: block;
+      margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+      margin: 10px 0 0 0;
+      width: 100%;min-height: 2em;
+  }
+  
+  input, textarea{
+    background-color: #0a0a23;
+    border: 1px solid #0a0a;
+     color: #ffffff;
+     width: 100%; 
+    
+  }
+  textarea{
+    margin-bottom: -1em
+  }
+  
+  input, select{
+    border-radius: 4px;
+  }
+  .inline {
+    width: unset;
+  margin-right: 0.5em;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+  }
+  
+  input[type="submit"]{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    height: 2em;
+    font-size: 1.1rem;
+     background-color: green;
+    border-color: white;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+    min-width: 300px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 5px;
+  }
